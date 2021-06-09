@@ -1,0 +1,475 @@
+*{
+	margin : 0;
+	padding : 0;
+}
+
+.back{
+	background-color: #000;
+	height : 88.9vh;
+	background-size : cover;
+	background-position : center;
+	position : relative;
+	overflow-x : hidden;
+}
+
+ul{
+	float : right;
+	list-style-type : none;
+	margin-top : 25px;
+}
+
+ul li{
+	display : inline-table;
+}
+
+ul li a{
+	text-decoration : none;
+	color : #FFA500;
+	font-weight : bold;
+	font-size : 15.5px;
+	padding : 5px 20px;
+	border : 1px solid transparent;
+	transition : 0.5s ease;
+}
+
+ul li a:hover{
+	background-color : #FFA500;
+	color : #fff;
+}
+
+.content{
+    position : absolute;
+	border-style : dotted;
+	border-width : 5px;
+	border-color : #FFA500;
+	top : 100px;
+	left : 40px;
+	right : 40px;
+	font-size: 18px;
+    min-height: 450px;
+    width: 95%;
+    background: #000;
+}
+
+.dh1 {
+	position : absolute;
+	top : 10px;
+	left : 20px;
+}
+
+.dh1 p{
+	margin : 0px 0px 0px -15px;
+	color : #FFA500;
+	font-size : 25px;
+	font-weight : bold;
+    font-style : italic;	
+}
+
+.dh2 {
+	position : absolute;
+	top : 10px;
+	left : 720px;
+}
+
+.dh2 p{
+	margin : 0px 0px 0px -15px;
+	color : #FFA500;
+	font-size : 25px;
+	font-weight : bold;
+    font-style : italic;	
+}
+
+.dh3 {
+	position : absolute;
+	top : 30px;
+	left : 500px;
+}
+
+.dh3 p{
+	margin : 0px 0px 0px -15px;
+	color : #FFA500;
+	font-size : 22px;
+	font-weight : bold;	
+	text-decoration-line: underline;
+}
+
+.dh4 {
+	position : absolute;
+	top : 30px;
+	left : 1250px;
+}
+
+.dh4 p{
+	margin : 0px 0px 0px -15px;
+	color : #FFA500;
+	font-size : 22px;
+	font-weight : bold;	
+	text-decoration-line: underline;
+}
+
+input{	
+	margin-top: 10px ;
+	left : 20px;
+	width : 60px;
+    height : 20px;
+	font-size : 18px;
+}
+
+label{
+	margin : 0px 0px 0px -15px;
+	color : #fff;
+	font-size : 18px;
+	font-weight : bold; 
+}
+
+.decide1{
+	position : absolute;
+	top : 60px;
+	left : 15px;
+}
+
+.decide2{
+	position : absolute;
+	top : 90px;
+	left : 15px;
+}
+
+.decide3{
+	position : absolute;
+	top : 120px;
+	left : 15px;
+}
+
+.decide4{
+	position : absolute;
+	top : 150px;
+	left : 15px;
+}
+
+.decide5{
+	position : absolute;
+	top : 180px;
+	left : 15px;
+}
+
+.decide6{
+	position : absolute;
+	top : 210px;
+	left : 15px;
+}
+
+.decide7{
+	position : absolute;
+	top : 240px;
+	left : 15px;
+}
+
+.decide8{
+	position : absolute;
+	top : 270px;
+	left : 15px;
+}
+
+.decide9{
+	position : absolute;
+	top : 300px;
+	left : 15px;
+}
+
+.decide10{
+	position : absolute;
+	top : 330px;
+	left : 15px;
+}
+
+.decide11{
+	position : absolute;
+	top : 360px;
+	left : 15px;
+}
+
+.decide12{
+	position : absolute;
+	top : 390px;
+	left : 15px;
+}
+
+.decide13{
+	position : absolute;
+	top : 60px;
+	left : 720px;
+}
+
+.decide14{
+	position : absolute;
+	top : 90px;
+	left : 720px;
+}
+
+.decide15{
+	position : absolute;
+	top : 120px;
+	left : 720px;
+}
+
+.decide16{
+	position : absolute;
+	top : 150px;
+	left : 720px;
+}
+
+.decide17{
+	position : absolute;
+	top : 180px;
+	left : 720px;
+}
+
+.decide18{
+	position : absolute;
+	top : 210px;
+	left : 720px;
+}
+
+.decide19{
+	position : absolute;
+	top : 240px;
+	left : 720px;
+}
+
+.decide20{
+	position : absolute;
+	top : 270px;
+	left : 720px;
+}
+
+.decide21{
+	position : absolute;
+	top : 300px;
+	left : 720px;
+}
+
+.decide22{
+	position : absolute;
+	top : 330px;
+	left : 720px;
+}
+
+.decide23{
+	position : absolute;
+	top : 360px;
+	left : 720px;
+}
+
+.decide24{
+	position : absolute;
+	top : 390px;
+	left : 720px;
+}
+
+.quantity1{
+	position : absolute;
+	left : 500px;
+	top : 60px;
+}
+
+.quantity2{
+	position : absolute;
+	left : 500px;
+	top : 90px;
+}
+
+.quantity3{
+	position : absolute;
+	left : 500px;
+	top : 120px;
+}
+
+.quantity4{
+	position : absolute;
+	left : 500px;
+	top : 150px;
+}
+
+.quantity5{
+	position : absolute;
+	left : 500px;
+	top : 180px;
+}
+
+.quantity6{
+	position : absolute;
+	left : 500px;
+	top : 210px;
+}
+
+.quantity7{
+	position : absolute;
+	left : 500px;
+	top : 240px;
+}
+
+.quantity8{
+	position : absolute;
+	left : 500px;
+	top : 270px;
+}
+
+.quantity9{
+	position : absolute;
+	left : 500px;
+	top : 300px;
+}
+
+.quantity10{
+	position : absolute;
+	left : 500px;
+	top : 330px;
+}
+
+.quantity11{
+	position : absolute;
+	left : 500px;
+	top : 360px;
+}
+
+.quantity12{
+	position : absolute;
+	left : 500px;
+	top : 390px;
+}
+
+.quantity13{
+	position : absolute;
+	left : 1250px;
+	top : 60px;
+}
+
+.quantity14{
+	position : absolute;
+	left : 1250px;
+	top : 90px;
+}
+
+.quantity15{
+	position : absolute;
+	left : 1250px;
+	top : 120px;
+}
+
+.quantity16{
+	position : absolute;
+	left : 1250px;
+	top : 150px;
+}
+
+.quantity17{
+	position : absolute;
+	left : 1250px;
+	top : 180px;
+}
+
+.quantity18{
+	position : absolute;
+	left : 1250px;
+	top : 210px;
+}
+
+.quantity19{
+	position : absolute;
+	left : 1250px;
+	top : 240px;
+}
+
+.quantity20{
+	position : absolute;
+	left : 1250px;
+	top : 270px;
+}
+
+.quantity21{
+	position : absolute;
+	left : 1250px;
+	top : 300px;
+}
+
+.quantity22{
+	position : absolute;
+	left : 1250px;
+	top : 330px;
+}
+
+.quantity23{
+	position : absolute;
+	left : 1250px;
+	top : 360px;
+}
+
+.quantity24{
+	position : absolute;
+	left : 1250px;
+	top : 390px;
+}
+
+.click a{
+	position : absolute;
+	left : 750px;
+	top : 500px;
+	transform : translate(-50%,-50%);
+	width : 200px;
+	height : 60px;
+	text-align : center;
+	line-height : 60px;
+	color : #fff;
+	font-size : 24px;
+	text-decoration : none;
+	box-sizing : border-box;
+	background : linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+	background-size : 400%;
+	border-radius : 30px;
+	z-index : 1;
+}
+
+.click a:hover{
+	animation : animate 8s linear infinite;
+}
+
+@keyframes animate{
+	0%{
+		background-position : 0%;
+	}
+	100%{
+		background-position : 400%;
+	}
+}
+
+.click a:before{
+	content : '';
+	position : absolute;
+	top : -5px;
+	left : -5px;
+	right : -5px;
+	bottom : -5px;
+	z-index : -1;
+	background : linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+	background-size : 400%;
+	border-radius : 40px;
+	opacity : 0;
+	transition : 0.5s;
+}
+
+.click a:hover:before{
+	filter : blur(20px);
+	opacity : 1;
+	animation : animate 8s linear infinite;
+}
+
+.footer{
+	background: #FFA500;
+	text-align: center;
+	color: #fff;
+	height: 80px;
+}
+.footer p {
+    position : relative;
+	top: 40px;
+}

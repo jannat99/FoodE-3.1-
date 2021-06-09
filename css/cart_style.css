@@ -1,0 +1,189 @@
+*{
+	margin : 0;
+	padding : 0;
+}
+
+.back{
+	background-color: white;
+	height : 100vh;
+	background-size : cover;
+	background-position : center;
+	overflow-x : hidden;
+}
+
+ul{
+	float : right;
+	list-style-type : none;
+	margin-top : 25px;
+}
+
+ul li{
+	display : inline-table;
+}
+
+ul li a{
+	text-decoration : none;
+	color : #FFA500;
+	font-weight : bold;
+	font-size : 17.5px;
+	padding : 5px 20px;
+	border : 1px solid transparent;
+	transition : 0.5s ease;
+}
+
+ul li a:hover{
+	background-color : #FFA500;
+	color : #fff;
+}
+
+.heading{
+	position : absolute;
+	left : 50px;
+	top : 100px;
+	display : grid;
+	grid-template-columns: 300px 150px 250px 300px 250px 200px;
+}
+
+.head1{
+	font-size : 25px;
+	font-style : italic;
+	text-decoration-line: underline;
+	color : red;
+}
+
+.head2{
+	font-size : 25px;
+	font-style : italic;
+	text-decoration-line: underline;
+	color : red;
+}
+
+.head3{
+	font-size : 25px;
+	font-style : italic;
+	text-decoration-line: underline;
+	color : red;
+}
+
+.head4{
+	font-size : 25px;
+	font-style : italic;
+	text-decoration-line: underline;
+	color : red;
+}
+
+.head5{
+	font-size : 25px;
+	font-style : italic;
+	text-decoration-line: underline;
+	color : red;
+}
+
+.head6{
+	font-size : 25px;
+	font-style : italic;
+	text-decoration-line: underline;
+	color : red;
+}
+
+.content h1{
+    position : absolute;
+    left : 50px;
+	top : 150px;
+    color : #FFA500;
+	font-size : 18px;
+}
+
+.content h2{
+    position : absolute;
+    left : 350px;
+	top : 150px;
+    color : #FFA500;
+	font-size : 18px;
+}
+
+
+.content h3{
+    position : absolute;
+    left : 500px;
+	top : 150px;
+    color : #FFA500;
+	font-size : 18px;
+}
+
+.content h4{
+    position : absolute;
+    left : 750px;
+	top : 150px;
+    color : #FFA500;
+	font-size : 18px;
+}
+
+.content h5{
+    position : absolute;
+    left : 1050px;
+	top : 150px;
+    color : #FFA500;
+	font-size : 18px;
+}
+
+.content h6{
+    position : absolute;
+    left : 1300px;
+	top : 150px;
+    color : #FFA500;
+	font-size : 18px;
+}
+
+.check1 a{
+	color : #fff;
+	left : 450px;
+	top : 670px;
+	width : 300px;
+	height : 25px;
+	position : absolute;
+}
+
+.check2 a{
+    color : #fff;
+	left : 810px;
+	width : 300px;
+	height : 25px;
+	top : 670px;
+	position : absolute;
+}
+
+.button{
+  background-color: red; 
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  width : 300px;
+}
+
+.see{
+  background-color: red; 
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  width : 300px;
+}
+
+.footer{
+	background: #FFA500;
+	text-align: center;
+	color: #fff;
+	height: 80px;
+}
+.footer p {
+    position : relative;
+	top: 40px;
+}

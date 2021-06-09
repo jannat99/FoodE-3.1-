@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter');
+html{
+	overflow: hidden;
+}
+
+body {
+    margin: 0px 0px 0px 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+    height: 100vh;
+    perspective: 2px;
+    transform-style: preserve-3d;
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+
+.part1{
+    margin: 0px 0px 0px 0px;
+	width: 100vw;
+    height:100vh;
+    top : 0;
+    box-sizing: border-box;
+    transform-style: preserve-3d;
+}
+.part1::before {
+    padding : 0px 0px 0px 0px;
+	content : "";
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../image/12.jpeg);
+    position: absolute;
+    z-index: -1;
+    transform:translateZ(-1px) scale(2);
+}
+
+.content ul{
+	float : right;
+	list-style-type : none;
+	top : 30px;
+	right : 600px;
+}
+
+.content ul li{
+	display : inline-table;
+}
+
+ul li a{
+	text-decoration : none;
+	color : #fff;
+	font-size : 25px;
+	padding : 5px 20px;
+	border : 1px solid transparent;
+	transition : 0.5s ease;
+}
+
+.content ul li a:hover{
+	background-color : #fff;
+	color : #000;
+}
+
+.content h1{
+    position : relative;
+    left : 50px;
+	top : 200px;
+    width: 100%;
+	line-height : .2;
+    color : #fff;
+	font-weight : 70;
+	font-size : 8rem;
+	font-family: 'Herr Von Muellerhoff' , cursive;
+}
+
+.content p{
+    position : relative;
+    left : 200px;
+	top : 200px;
+    width: 100%;
+	line-height : .2;
+    color : #fff;
+	font-weight : 70;
+	font-size : 6rem;
+	font-family: 'Herr Von Muellerhoff' , cursive;
+}
+
+.part2{
+	 width: 100vw;
+    height:100vh;
+    top : 0px;	
+    background-image: url(../image/13.jpg);
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    z-index: 2;
+    position: relative;
+}
+
+h2{
+	position : relative;
+	left : 1000px;
+	top : 250px;
+	font-size : 40px;
+	font-style : italic;
+	font-family: 'Architects Daughter';
+	transform : translate(-50%,-50%);
+	display : block;
+}
+
+h3{
+	position : relative;
+	left : 1085px;
+	top : 254px;
+	font-size : 24px;
+	font-style : italic;
+	font-family: 'Architects Daughter';
+	transform : translate(-50%,-50%);
+	display : block;
+}
+
+.text1{
+	font-size : 40px;
+	letter-spacing : 6px;
+	font-weight : bold;
+	position : relative;
+	margin-bottom : 30px;
+	animation : text 4s infinite;
+	margin-left : 600px;
+}
+
+@keyframes text{
+	0%{
+		color : #000;
+		margin-bottom : -50px;
+		margin-left : 600px;
+	}
+	30%{
+		margin-bottom : -50px;
+		letter-spacing : 25px;
+		margin-left : 600px;
+	}
+	80%{
+		margin-bottom : -50px;
+		letter-spacing : 8px;
+		margin-left : 600px;
+	}
+}
+
+.text2{
+	font-size : 24px;
+	color : #bbff00;
+	margin-left : 630px;
+}
+
+.part3{
+    margin: 0px 0px 0px 0px;
+	width: 100vw;
+    height:100vh;
+    top : 0;
+    box-sizing : border-box;
+    transform-style : preserve-3d;
+}
+
+.part3::before {
+    padding : 0px 0px 0px 0px;
+	content : "";
+    width : 100vw;
+    height : 100vh;
+    background-image : linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../image/14.jpg);
+    position : absolute;
+    z-index : -1;
+    transform : translateZ(-1px) scale(2);
+}
+
+.part4{
+	width: 100vw;
+    height:100vh;
+    top : 0px;
+    background-image: url(../image/15.jpg);
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    z-index: 2;
+    position: relative;
+}
+
+
+.half h4{
+	position : relative;
+    left : 900px;
+	top : 100px;
+    width: 450px;
+	height : 140px;
+    color : #fff;
+	font-size : 20px;
+	border-style : double;
+	border-width : 15px;
+	padding : 15px 15px 15px 15px;
+}
+
+.half h5{
+	position : relative;
+    left : 160px;
+	top : 200px;
+    width: 500px;
+	height : 180px;
+    color : #fff;
+	font-size : 20px;
+	border-style : double;
+	border-width : 15px;
+	padding : 15px 15px 15px 15px;
+}
+	
+	
